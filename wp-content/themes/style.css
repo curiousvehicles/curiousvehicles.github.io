@@ -1,0 +1,32 @@
+/* .contact-form .connect_forms{
+	display:none;
+} */
+
+.contact-form ul.contact_tab_form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.contact-form .contact_tab_form li {
+    cursor: pointer;
+    padding: 20px 0;
+    border: 1px solid #9C735B;
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.contact-form .contact_tab_form .connect_tab_form {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.contact-form .contact_tab_form .dealer_tab_form {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.contact-form .contact_tab_form .active {
+    background: #9C735B;
+    color: white;
+}
