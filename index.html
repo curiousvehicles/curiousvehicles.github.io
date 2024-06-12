@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/vendors/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/vendors/splitting.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+    <title>Curiousvehicles</title>
+    <link rel="canonical" href="https://curiousvehicles.com/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Curiousvehicles" />
+    <meta property="og:url" content="https://curiousvehicles.com/" />
+    <meta property="og:site_name" content="Curiousvehicles" />
+    <meta property="article:modified_time" content="2024-04-10T16:26:00+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+
+    <style id='wp-emoji-styles-inline-css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id='safe-svg-svg-icon-style-inline-css'>
+        .safe-svg-cover {
+            text-align: center
+        }
+
+        .safe-svg-cover .safe-svg-inside {
+            display: inline-block;
+            max-width: 100%
+        }
+
+        .safe-svg-cover svg {
+            height: 100%;
+            max-height: 100%;
+            max-width: 100%;
+            width: 100%
+        }
+    </style>
+    <style id='classic-theme-styles-inline-css'>
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='shortlink' href='https://curiousvehicles.com/' />
+    <link rel="shortcut icon" href="./assets/images/logo.png" />
+</head>
+
+<body>
+    <header style="background-color: #0c2c2c;opacity: 0.85;" class="header show">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-6 col-sm-4 col-md-3">
+                    <a href="#" class="logo"><h5 style="margin: 0px;background: -webkit-linear-gradient(gold, white);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;">Curiousvehicles</h5>
+				</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <div class="banner-space"></div>
+            <div class="about-space">
+                <section class="home-about">
+                    <div class="container-fluid">
+                        <div style="height: auto; aspect-ratio: 16/9;">
+                            <video style="width: 100%;" loop autoplay muted>
+                                <source src="./assets/video/about.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="absolute-para">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h2 class="title">To the Bicycle Culture</h2>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h3>With an intent to bring back the symbol of decarbonisation – Transport and societies and the possibility for immediate climate action.</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="we-believe image-reveal">
+                <div class="container-fluid">
+                    <div style="margin-bottom: 15px;" class="row justify-content-between">
+                        <div class="col-md-8 col-xl-7 offset-md-1">
+                            <div class="section-title mb-0">
+                                <h2 class="title">We believe in</h2>
+                            </div>
+                            <div class="outline">• Human powered transport</div>
+                            <div class="img-box-mob">
+                                <img loading="lazy" src="./assets/images/about/renewable.png">
+                            </div>
+                            <div class="outline">• Cycling focussed Culture</div>
+                            <div class="img-box-mob">
+                                <img loading="lazy" src="./assets/images/about/cycling.png">
+                            </div>
+                            <div class="outline">•Re-imagining Urban infra</div>
+                            <div class="img-box-mob">
+                                <img loading="lazy" src="./assets/images/about/urban.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="justify-content: space-evenly;" class="row align-items-center">
+                        <div class="col-5 col-sm-4 col-md-4 col-xl-3">
+                            <div class="about-img left img-box" data-img="./assets/images/about/renewable.png" data-fx="5">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-4 col-md-4 col-xl-3">
+                            <div class="about-img left img-box" data-img="./assets/images/about/cycling.png" data-fx="5">
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-4 col-md-4 col-xl-3">
+                            <div class="about-img left img-box" data-img="./assets/images/about/urban.png" data-fx="5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="corporate-video" id="page02">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-7">
+                            <div class="section-title">
+                                <h2 class="title">VISION</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-5">
+                            <div class="section-title">
+                                <h3 class="top-subtitle">Promoting strategic investments and commitments to sustainable mobility for cities to improve quality of life, grow economies, and pave a greener path for future.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-box" id="corporate-video" data-attributes="855971606">
+                        <div class="intro-text"><i class="fa fa-play" style="font-size: 30px;"></i></div>
+                        <!--div style="height: auto; aspect-ratio: 16/9;">
+                            <video style="width: 100%;" loop autoplay muted>
+                                <source src="./assets/video/vision.mp4" type="video/mp4">
+                            </video>
+                        </div-->
+                        <iframe src="https://player.vimeo.com/video/956732008?title=0&byline=0&portrait=0&controls=0&app_id=58479" frameborder="0" data-ready="true" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="vision"></iframe>
+                    </div>
+                    <script src=https://player.vimeo.com/api/player.js></script>
+                </div>
+            </section>
+            
+            <section style="padding: 60px 0;" class="download_app">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-7">
+                            <div style="align-items: center; display: flex;height: 100%;">
+                                <div class="section-title">
+                                    <h2 class="title">CyQlist App for Employers</h2>
+                                    <p >The key is keeping it simple and not prescribing to people. We envisage to cultivate an environment that fosters employee experience, reduce carbon footprint, and harmonize fitness with fun and style.</p>
+                                    <div class="button-center" style="text-align: center;padding: 5px 15px;">
+                                        <a href="" class="button">
+                                            <span style="padding-right: 10px;"><i class="fa fa-apple" style="font-size: 30px;"></i></span>
+                                            <div style="line-height: 0;">
+                                                <span style="font-size: 8px;">Download on</span><br>
+                                                <span>App Store</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="button-center" style="text-align: center;padding: 5px 15px;">
+                                        <a href="" class="button">
+                                            <img rel="icon" style="width: 30px;" src="./assets/images/icon/google-play.svg">
+                                            <div style="line-height: 0;">
+                                                <span style="font-size: 8px;">Get it on</span><br>
+                                                <span>Play Store</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="button-center" style="text-align: center;padding: 5px 15px;">
+                                        <a href="" class="button">
+                                            <span style="padding-right: 10px;"><i class="fa fa-external-link" style="font-size: 28px;"></i></span>
+                                            <div style="line-height: 0;">
+                                                <span style="font-size: 8px;">Visit</span><br>
+                                                <span>Website</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-5">
+                            <div style="display: flex; justify-content: center;">
+                                <div class="phone-frame">
+                                    <div class="phone-model"></div>
+                                    <div class="screen">
+                                        <div class="slideshow-container">
+                                            <div class="slide fade">
+                                                <img loading="lazy" src="./assets/gif/page1.gif">
+                                            </div>
+                                            <div class="slide fade">
+                                                <img loading="lazy" src="./assets/gif/page2.gif">
+                                            </div>
+                                            <div class="slide fade">
+                                                <img loading="lazy" src="./assets/gif/page3.gif">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <script src="./assets/js/slideshow.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products-home" id="page03">
+                <div class="container">
+                    <div class="section-title">
+                        <h2 class="title">Our Diversified offers</h2>
+                        <p style="max-width: 400px;">We function with a core intent to make a positive impact on the sustainability transport system. Nevertheless, we strive to convey and embrace it with stunning bicycles that are no less than any motorbikes.</p>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12 position-relative">
+                            <div class="app-slider">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/electric.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/road.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/touring.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/gravel.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/bmx.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/commuter.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/cyclocross.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/fat.png">
+                                        </div>
+                                    </div>
+                                    <!--div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/folding.png">
+                                        </div>
+                                    </div-->
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/hybrid.png">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="img-box">
+                                            <img loading="lazy" src="./assets/images/cycle_images/mountain.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <script src="./assets/js/autoscroll.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer">
+                <div class="approach">
+                    <div class="bg">
+                        <img loading="lazy" src="./assets/gif/footer.gif">
+                    </div>
+                    <div style="padding: 40px 0;" class="container">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 style="color: #0c2c2c;" class="title">Powering Cycling for Sustainable Future</h2>
+                                <h4 class="desc">Connect with us to build it together.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div style="display: flex;justify-content: space-evenly;" class="row">
+                        <div style="display: flex;justify-content: center;" class="col-md-8 mx-auto">
+                            <ul class="social">
+                                <li>
+                                    <h4>Get Social </h4>
+                                </li>
+                                <li><a href="" target="_blank"><img src="./assets/images/icon/twitter.png"></a></li>
+                                <li><a href="" target="_blank"><img src="./assets/images/icon/facebook.png"></a></li>
+                                <li><a href="" target="_blank"><img src="./assets/images/icon/linkedin.png"></a></li>
+                                <li><a href="" target="_blank"><img src="./assets/images/icon/instagram.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="col-sm-5 col-lg-3">
+                            <h4>Location</h4>
+                            <p>Anna Nager, Chennai, <br /> 600 040, Tamil Nadu, India.</p>
+                        </div>
+                        <div class="col-sm-5 col-lg-3">
+                            <h4>Contact Us</h4>
+                            <a class="phone">+91 79046 87077</a>
+                            <a href="mailto:partnership@curiousvechiles.com">info@curiousvechiles.com</a>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <div class="container">
+                            <div class="row justify-content-between">
+                                <div class="col-sm-auto">
+                                    <p>
+                                        © <span id="spanYear">2024</span> Curiousvehicles, All rights reserved
+                                    </p>
+                                </div>
+                                <div class="col-sm-auto">
+                                    <p>Designed and Developed by <a href="https://jebinjs.blogspot.com/" target="_blank">Jebin J S</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section style="background-image: url(./assets/gif/home.gif); background-size: cover; background-position-x: center;" class="banner">
+       
+        
+        <div class="banner-content">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-8 col-sm-6 col-md-5 col-lg-5">
+                        <div class="icon">
+                            <img loading="lazy" src="./assets/images/logo.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <h2 data-splitting>Every ride is a <br> Tiny holiday</h2>
+                        <h4 data-splitting>-with style</h4>
+                        <h3 data-splitting>Our unwavering dedication to fostering sustainable urban transport system and to build resilient infrastructure that have the power to transform societies with human power, one of renewable energies.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home-about">
+        <div class="home-about-animation-container">
+            <div class="homeHero__background" data-bg="4"></div>
+            <div class="homeHero__background" data-bg="3"></div>
+            <div class="homeHero__background" data-bg="2"></div>
+            <div class="homeHero__background" data-bg="1"></div>
+            <div class="homeHero__background" data-bg="0"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="video-box right">
+                <video loop autoplay muted>
+				<source src="./assets/video/about.mp4" type="video/mp4">
+			</video>
+        </div>
+        </div>
+        <div class="absolute-para">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="title">To the Bicycle Culture</h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>With an intent to bring back the symbol of decarbonisation – Transport and societies and the possibility for immediate climate action.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./assets/js/product.js"></script>
+    <svg class="cursor" viewBox="0 0 200 200">
+	<defs>
+		<filter id="filter-1" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox">
+			<feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="5" result="warp" />
+			<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="90" in="SourceGraphic" in2="warp" />
+		</filter>
+	</defs>
+	<circle class="cursor__inner" cx="100" cy="100" r="60" />
+</svg>
+
+    <script src="./assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/vendors/bootstrap.min.js"></script>
+    <script src="./assets/js/vendors/gsap.min.js"></script>
+    <script src="./assets/js/vendors/ScrollSmoother.js"></script>
+    <script src="./assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors/ScrollTrigger.min.js"></script>
+    <script src="./assets/js/vendors/DrawSVGPlugin.js"></script>
+    <script src="./assets/js/vendors/splitting.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+
+</body>
+
+</html>
