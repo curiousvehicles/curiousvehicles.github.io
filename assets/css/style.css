@@ -422,13 +422,16 @@ input[type=number] {
     align-items: center;
     position: relative;
     padding: 5px 25px;
-    min-width: 180px;
     justify-content: center;
     background: transparent;
     border: 1px solid #0D0D0D;
     border-radius: 30px;
     overflow: hidden;
     z-index: 1;
+}
+.button .button-text{
+    line-height: 0;
+    min-width: 80px;
 }
 
 .button:hover {
@@ -1333,6 +1336,7 @@ main {
     line-height: 1;
     font-weight: 700;
     z-index: 1;
+    list-style: disc;
     margin: 10px 0;
     position: relative;
 }
